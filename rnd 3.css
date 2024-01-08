@@ -1,0 +1,209 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  font-size: 1.5em;
+}
+
+.nav-menu {
+  list-style: outside none none;
+  display: flex;
+}
+
+.nav-menu li {
+  margin-right: 20px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: white;
+}
+
+.gradient-section {
+  height: 251px;
+  background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #00cc99, #3366cc) repeat scroll 0% 0%;
+  position: relative;
+  overflow: hidden;
+}
+
+.content-section1 {
+  height: 250px;
+  background-color: #f4f4f4;
+  position: relative;
+}
+
+.content-section2 {
+  height: 250px;
+  background-color: #00002a;
+  position: relative;
+}
+
+.content-section3 {
+  height: 600px;
+  background-color: #f4f4f4;
+  position: relative;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 50px;
+}
+
+h1 {
+  margin-top: 0px;
+}
+
+.grid-container {
+  display: grid;
+  -webkit-grid-template-columns: 200px 200px 200px;
+  grid-template-columns: 200px 200px 200px;
+  -webkit-grid-template-rows: 200px 200px;
+  grid-template-rows: 200px 200px;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+}
+
+.grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+}
+
+.custom-shape-divider-bottom-1704515718, .custom-shape-divider-bottom-1704529131, .custom-shape-divider-bottom-1704529409 {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1704515718 svg, .custom-shape-divider-bottom-1704529131 svg, .custom-shape-divider-bottom-1704529409 svg {
+  position: relative;
+  display: block;
+  width: calc(135% + 1.3px);
+  height: 89px;
+}
+
+.custom-shape-divider-bottom-1704515718 .shape-fill {
+  fill: #f4f4f4;
+}
+
+.custom-shape-divider-bottom-1704529131 .shape-fill {
+  fill: #00002a;
+}
+
+.custom-shape-divider-bottom-1704529409 .shape-fill {
+  fill: #f4f4f4;
+}
+
+#BG_1704531735265_62433 {
+  background-image: url("file:///C:/Users/%EC%B5%9C%EC%9D%BC%EC%9B%85/Pictures/laboratory%20background%20image.jpeg");
+}
+
+#BG_1704531802832_14135 {
+  background-image: url("file:///C:/Users/%EC%B5%9C%EC%9D%BC%EC%9B%85/Pictures/laboratory%20background%20image.jpeg");
+}
+
+#BG_1704540914596_42517 {
+  width: 100px;
+  height: 43.3526px;
+}
+
+#BG_1704541503151_70018 {
+  padding: 50px 150px 0px 50px;
+}
+
+#BG_1704542029781_62709 {
+  padding: 50px 150px 50px 50px;
+}
+
+#BG_1704605884252_74814 {
+  background-image: url("../../Pictures/laboratory%20background%20image.jpeg"), url("laboratory%20background%20image.jpeg");
+  background-size: cover;
+}
+
+#BG_1704606498455_1488 {
+  -webkit-grid-gap: 50px;
+  grid-gap: 50px;
+}
+
+#BG_1704608806743_15588 {
+  text-align: left;
+  padding-left: 200px;
+}
+
+#BG_1704608868738_13250 {
+  -webkit-grid-gap: 50px 70px;
+  grid-gap: 50px 70px;
+}
+
+#BG_1704545277299_94065 {
+  background-image: url("../../Pictures/lab%201.jpg"), url("lab%201.jpg");
+  background-size: cover;
+}
+
+#BG_1704545298150_53663 {
+  background-image: url("../../Pictures/lab%204.jpg"), url("../../Pictures/lab%204.jpg"), url("../../Pictures/lab%206.jpg"), url("lab%206.jpg");
+  background-size: cover;
+}
+
+#BG_1704545303844_55199 {
+  background-image: url("../../Pictures/lab2.jpg"), url("lab2.jpg");
+  background-size: cover;
+}
+
+#BG_1704545310760_58657 {
+  background-image: url("../../Pictures/lab3.jpeg"), url("lab3.jpeg");
+  background-size: cover;
+}
+
+#BG_1704545317444_30050 {
+  background-image: url("../../Pictures/lab5.jpg"), url("lab5.jpg");
+  background-size: cover;
+}
+
+#BG_1704545323599_45750 {
+  background-image: url("../../Pictures/laboratory%20background%20image.jpg"), url("laboratory%20background%20image.jpg");
+  background-size: cover;
+}
+
+#BG_1704545277299_94065:hover {
+  opacity: 0.5;
+}
+
+#BG_1704545298150_53663:hover {
+  opacity: 0.5;
+}
+
+#BG_1704545303844_55199:hover {
+  opacity: 0.5;
+}
+
+#BG_1704545310760_58657:hover {
+  opacity: 0.5;
+}
+
+#BG_1704545317444_30050:hover {
+  opacity: 0.5;
+}
+
+#BG_1704545323599_45750:hover {
+  opacity: 0.5;
+}
+
